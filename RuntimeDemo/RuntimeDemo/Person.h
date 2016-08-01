@@ -8,7 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Person : NSObject
+@interface Person : NSObject <NSCoding>
+
+@property (nonatomic, copy) NSString *name;
+
+@property (nonatomic, copy) NSString *sex;
+
+@property (nonatomic, assign) NSUInteger age;
 
 + (void)run;
 

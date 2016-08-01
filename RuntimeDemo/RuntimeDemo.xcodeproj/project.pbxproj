@@ -14,6 +14,8 @@
 		006AD6531D4B3ABB00FC48E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006AD6521D4B3ABB00FC48E1 /* Assets.xcassets */; };
 		006AD6561D4B3ABB00FC48E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006AD6541D4B3ABB00FC48E1 /* LaunchScreen.storyboard */; };
 		3795D65749C8D91FAD010480 /* libPods-RuntimeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F055E06DD9E68351C0D7221 /* libPods-RuntimeDemo.a */; };
+		4C031DA11D4EE5F9001A8558 /* NSObject+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C031DA01D4EE5F9001A8558 /* NSObject+Extension.m */; };
+		4C031DA41D4EE9B3001A8558 /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C031DA31D4EE9B3001A8558 /* Dog.m */; };
 		4C0823BB1D4B4E5400F4F20D /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0823BA1D4B4E5400F4F20D /* UIImage+Category.m */; };
 		4C0823BE1D4B55B500F4F20D /* NSObject+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0823BD1D4B55B500F4F20D /* NSObject+Category.m */; };
 		4CF3F3811D4B462A009334DE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3F3801D4B462A009334DE /* Person.m */; };
@@ -30,6 +32,10 @@
 		006AD6521D4B3ABB00FC48E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		006AD6551D4B3ABB00FC48E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		006AD6571D4B3ABB00FC48E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C031D9F1D4EE5F9001A8558 /* NSObject+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Extension.h"; sourceTree = "<group>"; };
+		4C031DA01D4EE5F9001A8558 /* NSObject+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Extension.m"; sourceTree = "<group>"; };
+		4C031DA21D4EE9B3001A8558 /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		4C031DA31D4EE9B3001A8558 /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		4C0823B91D4B4E5400F4F20D /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		4C0823BA1D4B4E5400F4F20D /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
 		4C0823BC1D4B55B500F4F20D /* NSObject+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Category.h"; sourceTree = "<group>"; };
@@ -89,6 +95,10 @@
 				4C0823BA1D4B4E5400F4F20D /* UIImage+Category.m */,
 				4C0823BC1D4B55B500F4F20D /* NSObject+Category.h */,
 				4C0823BD1D4B55B500F4F20D /* NSObject+Category.m */,
+				4C031D9F1D4EE5F9001A8558 /* NSObject+Extension.h */,
+				4C031DA01D4EE5F9001A8558 /* NSObject+Extension.m */,
+				4C031DA21D4EE9B3001A8558 /* Dog.h */,
+				4C031DA31D4EE9B3001A8558 /* Dog.m */,
 			);
 			path = RuntimeDemo;
 			sourceTree = "<group>";
@@ -241,9 +251,11 @@
 			files = (
 				006AD64E1D4B3ABB00FC48E1 /* ViewController.m in Sources */,
 				006AD64B1D4B3ABB00FC48E1 /* AppDelegate.m in Sources */,
+				4C031DA41D4EE9B3001A8558 /* Dog.m in Sources */,
 				4CF3F3811D4B462A009334DE /* Person.m in Sources */,
 				006AD6481D4B3ABB00FC48E1 /* main.m in Sources */,
 				4C0823BB1D4B4E5400F4F20D /* UIImage+Category.m in Sources */,
+				4C031DA11D4EE5F9001A8558 /* NSObject+Extension.m in Sources */,
 				4C0823BE1D4B55B500F4F20D /* NSObject+Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
